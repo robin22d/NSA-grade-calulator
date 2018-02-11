@@ -1,0 +1,43 @@
+.wrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container {
+    padding: 20px;
+    font-size: 100%;
+}
+
+.text_left {
+    justify-self: end;
+}
+
+.text_center {
+    justify-self: center;
+}
+
+.outer_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: rgb(54, 56, 65);
+}
+
+.year_mark{
+    font-size: 100%;
+    color: white;
+    justify-self: center;
+}
+
+@media screen and (max-width: 780px) {
+
+    .wrapper{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .App-header {
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+}

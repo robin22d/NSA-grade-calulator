@@ -1,0 +1,11 @@
+input{
+    width: 70%;
+}
+
+.inside_grid{
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    font-size: 10px;
+}
