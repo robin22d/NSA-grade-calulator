@@ -1,0 +1,71 @@
+
+.moduleGrid {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    " moduleTitle     moduleTitle    moduleTitle moduleTitle "
+    " assessmentTitle weightingTitle markTitle   gradeTitle "
+    " assignments     assignments    assignments assignments"
+    " moduleMark      overallMark    moduleGrade overallGrade "
+}
+
+.moduleTitle{
+    background-color: rgb(158, 149, 149);
+    grid-area: moduleTitle;
+}
+
+.assessmentTitle{
+    grid-area: assessmentTitle;
+    align-self: center;
+    justify-self: center;
+}
+
+.weightingTitle{
+    grid-area: weightingTitle;
+    align-self: center;
+    justify-self: center;
+}
+
+.markTitle{
+    grid-area: markTitle;
+    align-self: center;
+    justify-self: center;
+}
+
+.gradeTitle{
+    grid-area: gradeTitle;
+    align-self: center;
+    justify-self: center;
+}
+
+.assignments{
+    grid-area: assignments;
+}
+
+.moduleMark{
+    grid-area: moduleMark;
+    align-self: center;
+    justify-self: center;
+}
+
+.overallMark{
+    grid-area: overallMark;
+    align-self: center;
+    justify-self: center;
+}
+
+.moduleGrade{
+    grid-area: moduleGrade;
+    align-self: center;
+    justify-self: center;
+}
+
+.overallGrade{
+    grid-area: overallGrade;
+    align-self: center;
+    justify-self: center;
+}
+

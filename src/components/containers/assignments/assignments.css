@@ -1,0 +1,19 @@
+
+.assignmentGrid {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.assignment{
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 50%;
+}

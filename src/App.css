@@ -29,3 +29,53 @@ body{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button{
+  width: 60%;
+  color: #fff;
+  background-color: #0275d8;
+  display: inline-block;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+.navWrapper{
+	display: grid;
+	grid-gap: 10px;
+	background-color: #fff;
+	grid-template-areas: " back next ";
+	position: fixed;
+	bottom: 0px;
+	width: 80%;
+	cursor: pointer;
+}
+
+.back{
+	grid-area: back;
+}
+
+.next{
+	grid-area: next;
+	justify-self: end;
+}

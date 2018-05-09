@@ -1,0 +1,75 @@
+.popup_grid {
+	display: grid;
+	grid-gap: 10px;
+	position: fixed;
+	border-radius: 5px;
+	left: 25%;
+	right: 25%;
+	top: 25%;
+	bottom: 25%;
+	margin: auto;
+	background: white;
+	grid-template-areas: 
+	" header header "
+	" gradeTitle gradeEnter "
+	" outOfTitle outOfEnter "
+	" total total "
+	" close close "
+}
+
+.popup_background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0,0,0, 0.5);
+	opacity: 0.6;
+}
+
+
+.header{
+	grid-area: header;
+	justify-self: center;
+	background-color: rgb(82, 82, 82);
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+}
+
+.gradeTitle{
+	grid-area: gradeTitle;
+	align-self: center;
+	justify-self: center;
+}
+
+.gradeEnter{
+	grid-area: gradeEnter;
+}
+
+.outOfTitle{
+	grid-area: outOfTitle;
+	align-self: center;
+	justify-self: center;
+}
+
+.outOfEnter{
+	grid-area: outOfEnter;
+}
+
+.total{
+	grid-area: total;
+	justify-self: end;
+	width: 50%;
+}
+
+.close{
+	grid-area: close;
+	justify-self: end;
+	width: 50%;
+}
+

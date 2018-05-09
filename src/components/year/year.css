@@ -1,0 +1,51 @@
+.YearGrid {
+	display: grid;
+	grid-gap: 10px;
+	background-color: #fff;
+	grid-template-areas: 
+	" title   title "
+	" modules modules "
+}
+
+.title{
+	grid-area: title;
+}
+
+.modules{
+	grid-area: modules;
+	align-self: center;
+	justify-self: center;
+	width: 100%;
+}
+
+
+
+.percentageCalculator{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 25px;
+	width: 50px;
+	cursor: pointer;
+}
+
+.navWrapper{
+	display: grid;
+	grid-gap: 10px;
+	background-color: #fff;
+	grid-template-areas: " back next ";
+	position: fixed;
+	bottom: 0px;
+	width: 80%;
+	cursor: pointer;
+}
+
+
+.back{
+	grid-area: back;
+}
+
+.next{
+	grid-area: next;
+	justify-self: end;
+}
